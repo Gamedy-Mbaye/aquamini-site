@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<!-- ============================================================
+  AGENTS / AI ASSISTANTS: STOP BEFORE EDITING THIS FILE.
+  Read the Aquamini project doc  claude/website-push-context.md  first.
+  It lists what must survive every new version (the ld+json block, the
+  Meta Pixel, robots.txt + sitemap.xml in the repo root, meta wording)
+  and the post-push checklist. After pushing: update website/index.html
+  in the project AND log the change in claude/website-push-context.md.
+  ============================================================ -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>AQUAMINI — DJ duo from Marbella</title>
 <meta name="description" content="Aquamini is a DJ duo from Marbella. Soul, jazz, house. Yes, you can dance to jazz.">
@@ -9,6 +17,13 @@
 <meta property="og:title" content="AQUAMINI">
 <meta property="og:description" content="Aquamini is a DJ duo from Marbella. Soul, jazz, house. Yes, you can dance to jazz.">
 <meta property="og:url" content="https://aquamini.world">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://aquamini.world/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Papiss and Seauph of Aquamini — matched portraits">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://aquamini.world/og-image.jpg">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -485,6 +500,23 @@ html.js .flip .mark{animation:spin 14s linear infinite}
   html.js .toassemble i,html.js .patch i{transform:none;opacity:1}
 }
 </style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1848076229493838');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1848076229493838&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 </head>
 <body>
 <div id="splash" aria-hidden="true"><i style="--i:0"></i><i style="--i:1"></i><i style="--i:2"></i><i style="--i:3"></i><i style="--i:4"></i><i style="--i:5"></i><i style="--i:6"></i><i style="--i:7"></i><i style="--i:8"></i><i style="--i:9"></i><i style="--i:10"></i><i style="--i:11"></i>
